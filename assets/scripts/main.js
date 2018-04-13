@@ -292,10 +292,10 @@ function ($scope, $rootScope, $http, $routeParams, $mdDialog, $mdMedia, $interva
 										name: results.station.fullName + ' - Estação meteorológica Pluviam'
 									};
 
-									if (true) {
+									var loader = document.getElementById('indeterminateLoader');
+									if ($scope.weather) {
 										// console.log('ready');
 
-										var loader = document.getElementById('indeterminateLoader');
 										var graphsDisplay = document.getElementById('graphsBase');
 										// invert for each
 

@@ -22,13 +22,14 @@ main {
 }
 
 .message-error{
-	background-color: #FF5252 !important;
+	background-color: #E57373 !important;
+	color: #FFF;
 }
 .message-warning{
-	background-color: #FFFF00 !important;
+	background-color: #FFFF8D !important;
 }
 .message-info{
-	background-color: #03A9F4 !important;
+	background-color: #A7FFEB !important;
 }
 
 .header-now-unit{
